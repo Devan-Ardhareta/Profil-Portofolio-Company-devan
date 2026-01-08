@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0d3b66, #1e5fa3);
+  min-height: 45vh;
+  padding-top: 45px;
+}
+.slider-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+body {
+  padding-top: 80px;
+}

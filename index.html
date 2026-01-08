@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Solo Transpedia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="greetingTime()">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#">Solo Transpedia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-warning text-dark ms-2" href="contact.html">Booking Sekarang</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-white">
+        <h1 id="greeting"></h1>
+        <h2 class="fw-bold">Solo Transpedia</h2>
+        <p class="text-dark">
+          Solusi terpercaya untuk kebutuhan transportasi Anda di Solo.</p>
+        <a href="contact.html" class="btn btn-warning btn-lg">Booking Sekarang</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Aset/download.png" class="img-fluid rounded" alt="Armada">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SLIDER / CAROUSEL -->
+<section class="mt-5 pt-4">
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- INDICATOR -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- SLIDE -->
+    <div class="carousel-inner">
+
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+        <img src="Aset/Slide 1.jpg" class="d-block w-100 slider-img" alt="Rental Mobil Solo">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="fw-bold">Layanan Transportasi Terpercaya</h3>
+          <p>Nyaman, Aman, dan Profesional</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="carousel-item">
+        <img src="Aset/Slide 2.jpg" class="d-block w-100 slider-img" alt="Armada Lengkap">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="fw-bold">Armada Lengkap & Terawat</h3>
+          <p>Siap untuk perjalanan wisata & bisnis</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="carousel-item">
+        <img src="Aset/Slide 3.jpeg" class="d-block w-100 slider-img" alt="Driver Profesional">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="fw-bold">Driver Berpengalaman</h3>
+          <p>Mengutamakan kenyamanan pelanggan</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTROL -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="text-center fw-bold mb-4">Armada Kami</h2>
+
+  <div class="row g-4">
+
+    <!-- MOBIL 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="Aset/ELF Long.jpg" class="card-img-top" alt="Elf Long">
+        <div class="card-body">
+          <h5 class="card-title">Elf Long</h5>
+          <p class="text-warning mb-1">★★★★★</p>
+          <p class="fw-bold text-primary">Rp 1.600.000 / hari</p>
+          <p class="small">Fasilitas: AC, Audio, Driver</p>
+          <a href="contact.html" class="btn btn-primary w-100">Booking Sekarang</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBIL 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="Aset/Fortuner.jpg" class="card-img-top" alt="Fortuner">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Fortuner</h5>
+          <p class="text-warning mb-1">★★★★★</p>
+          <p class="fw-bold text-primary">Rp 1.800.000 / hari</p>
+          <p class="small">Fasilitas: AC, Audio, Driver</p>
+          <a href="contact.html" class="btn btn-primary w-100">Booking Sekarang</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBIL 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="Aset/Alphart1.jpg" class="card-img-top" alt="Alphard">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Alphard</h5>
+          <p class="text-warning mb-1">★★★★★</p>
+          <p class="fw-bold text-primary">Rp 3.500.000 / hari</p>
+          <p class="small">Fasilitas: AC, Audio, Driver</p>
+          <a href="contact.html" class="btn btn-primary w-100">Booking Sekarang</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Penilaian Customer</h2>
+
+    <div class="row g-4">
+
+      <!-- REVIEW 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <p class="text-warning">★★★★★</p>
+            <p>"Pelayanan sangat ramah, mobil bersih dan nyaman."</p>
+            <h6 class="fw-bold mb-0">Andi Pratama</h6>
+            <small class="text-muted">Wisata Jogja</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- REVIEW 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <p class="text-warning">★★★★☆</p>
+            <p>"Driver profesional dan tepat waktu. Recommended!"</p>
+            <h6 class="fw-bold mb-0">Siti Aisyah</h6>
+            <small class="text-muted">Perjalanan Keluarga</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- REVIEW 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <p class="text-warning">★★★★★</p>
+            <p>"Harga sesuai, armada lengkap dan nyaman."</p>
+            <h6 class="fw-bold mb-0">Rizky Maulana</h6>
+            <small class="text-muted">Business Trip</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function greetingTime() {
+    const now = new Date();
+    const hour = now.getHours();
+    let greeting = "";
+
+    if (hour >= 5 && hour <= 11) {
+      greeting = "Selamat Pagi";
+    } else if (hour >= 12 && hour <= 14) {
+      greeting = "Selamat Siang";
+    } else if (hour >= 15 && hour <= 17) {
+      greeting = "Selamat Sore";
+    } else {
+      greeting = "Selamat Malam";
+    }
+
+    document.getElementById("greeting").innerText = greeting;
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
